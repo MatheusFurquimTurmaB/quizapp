@@ -11,7 +11,7 @@
     --purple: #a729f5;
     --primary-text-color: #313e51;
     --secondary-text-color: #626c7f;
-    --button-bg: #fff
+    --button-bg: #fff;
     --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
@@ -76,6 +76,7 @@ header {
     width: 12px;
     height: 12px;
     border-radius: 999px;
+    
 }
 
 main {
@@ -149,11 +150,11 @@ main {
     background: var(--bg-css);
 }
 
-.botao_javascript {
+.botao_javascript div {
     background: var(--bg-javascript);
 }
 
-.botao_acessibilidade {
+.botao_acessibilidade div {
     background: var(--bg-acessibilidade);
 }
 
